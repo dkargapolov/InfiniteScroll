@@ -1,0 +1,41 @@
+/* src/components/RepositoryList.module.css */
+
+/* RepositoryList.module.css */
+.list {
+  margin-top: 3rem; /* Отступ сверху для первого элемента */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Расстояние между карточками */
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+
+
+
+.loading {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+
+
+/* 
+.item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  transition: box-shadow 0.3s ease;
+}
+
+.item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+*/

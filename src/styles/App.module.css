@@ -1,0 +1,32 @@
+/* src/styles/App.module.css */
+.container {
+     /* Отступы для полной видимости */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Минимальная высота экрана */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    min-width: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+
+  }
+  
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  width: 100%;
+  position: fixed; /* Закрепляет хэдер */
+  top: 0; /* Устанавливает хэдер в верхнюю часть экрана */
+  left: 0; /* Выравнивает по левому краю экрана */
+  z-index: 1000; /* Перекрывает другие элементы */
+}
+
