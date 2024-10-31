@@ -30,7 +30,8 @@ const RepositoryItem: React.FC<RepositoryItemProps> = ({ repo }) => {
         >
             <p>Owner: {repo.owner.login}</p>
             <Button onClick={() => setIsEditing(true)}>Edit</Button>
-            <Button type="danger" onClick={handleDelete}>Delete</Button>
+            <Button type="primary" danger onClick={handleDelete}>Delete</Button>
+
 
             <Modal
                 title="Edit Repository"
